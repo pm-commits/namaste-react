@@ -1,4 +1,8 @@
 # namaste-react
+npm install -D parcel
+-D for Development: important for creating build
+
+
 Two types of dependencies: Dev dependency(Required in development phase)
                            Normal dependency
 
@@ -8,3 +12,57 @@ Heavy
 url have to be changed each time new version is released, npm will install it as a package so versions will managed will have updates with us. Easier to handle.
 Consistent hashing
 Differential bundling: When hosting the app, support on different browsers like older versions.
+
+^ helps with minor version upgrade(all upgrades)
+~ helps with major version updates only.
+
+Package-lock.json:Keeps track of exact version of the package/dependency installed.
+
+Packages have their own lot of dependencies.So, each package has its own package.json to keep trach of dependencies.
+
+NPX: executing command
+NPM: for installation
+
+Normal js browser scripts cannot have import. We have mentioned App.js as a module so it supports "import".
+
+Transitive Dependency
+
+# PARCEL : Bundler
+Zero Config Tool
+Dev Build
+Local Server
+Hot Module Replacement (HMR): save file and it refreshes the app using File watching algo using C++
+Caching: faster builds (Each build reduces time: parcel is caching things for faster buils)
+Image optimization (Loading images is one of the most time expensive task)
+Minification
+Bundling
+Compress
+Consistent Hashing
+Code splitting
+Differential Bundling: Gives support of older/newer versions of browsers
+Diagnostics
+Error Handling
+Hosting app on https
+Tree Shaking
+Transpilation
+Service Worker
+Lazy Loading
+Different dev and prod builds
+
+# JSX
+JSX is not a part of React. We use for our comfort.
+JSX is HTML/XML like syntax but different.
+
+Javascript engine JS engine understands (For eg; Ecmascript). It doesn't understand JSX. Parcel does the part of transpiling.
+JSX is converted to React.CreateElement and then to HTML element to render on browser.
+Use camelCase for attributes in JSX.
+
+# Babel
+It's job to convert JSX to react.createElement.
+
+# React Components
+Class Based Components(Old way, JS classes), Functional Components(JS functions)
+
+# React Functional Component
+It is a normal JS function which returns some JSX. Use first letter in capital for name.
+

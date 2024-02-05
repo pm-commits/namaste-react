@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My starting point for react",
   "scripts": {
-    "start":"parcel index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
@@ -21,5 +21,16 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pm-commits/namaste-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pm-commits/namaste-react/issues"
+  },
+  "homepage": "https://github.com/pm-commits/namaste-react#readme",
+  "browserslist": [
+    "last 2 Versions"
+  ]
 }
