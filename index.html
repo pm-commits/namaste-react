@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Changing the order of files in script throws error if we put app.js before Reach dev files, we will get an error as React unknown. -->
+<!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+<body>
+    <!-- If there is already something inside root with same element tag as the one we are trying to create from react js it will be replaced. Here "Hello h1" tag will be replaced -->
+    <div id="root"><div>"tell me"</div><h1>Hello h1</h1></h1></div>
+    
+    <script type="module" src="./App.js"></script>
+    
+</body>
+</html>
