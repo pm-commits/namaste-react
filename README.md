@@ -62,7 +62,16 @@ It's job to convert JSX to react.createElement.
 
 # React Components
 Class Based Components(Old way, JS classes), Functional Components(JS functions)
+Components should have unique keys(ids): React renders based on keys and rendering becomes optimised
+Do not use indexes as keys
 
 # React Functional Component
 It is a normal JS function which returns some JSX. Use first letter in capital for name.
+
+# Config driven UI: Swiggy
+It shows different data according to cities
+
+Optional chaining: (data?.name)
+
+
 
