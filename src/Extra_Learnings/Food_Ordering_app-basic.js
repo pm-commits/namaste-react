@@ -48,7 +48,7 @@ const RestaurantCard = (props) => {
         <div className="res-card">
                 <img className="res-logo" src={url}/>
             <div className="name">{name}</div>
-            <div className="cuisines">{cuisines}</div>
+            <div className="cuisines">{cuisines.join(',')}</div>
             <div className="delivery">{delivery}</div>
         </div>
     )
@@ -57,21 +57,21 @@ const RestaurantCard = (props) => {
 const resList = [{
     url: 'https://www.creativefabrica.com/wp-content/uploads/2020/02/11/Food-Logo-Graphics-1-70.jpg',
     name: 'abc',
-    cuisines: 'south indian',
+    cuisines: ['south indian','chinese','chats'],
     delivery: '35-40 mins',
     id: 1
 },
 {
     url: 'https://www.creativefabrica.com/wp-content/uploads/2020/02/11/Food-Logo-Graphics-1-70.jpg',
     name: 'xyz',
-    cuisines: 'north indian',
+    cuisines: ['north indian','punjabi'],
     delivery: '35-40 mins',
     id: 2
 },
 {
     url: 'https://www.creativefabrica.com/wp-content/uploads/2020/02/11/Food-Logo-Graphics-1-70.jpg',
     name: 'pqr',
-    cuisines: 'chinese',
+    cuisines: ['chinese','korean'],
     delivery: '1 hr',
     id: 3
 }]

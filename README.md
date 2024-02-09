@@ -73,5 +73,19 @@ It shows different data according to cities
 
 Optional chaining: (data?.name)
 
+# Exports/Imports
+## Default exports(only one default export allowed in one module)
+    export default Name;
+    import Name from "path";
+
+## Named Exports(import using curly braces)
+    export Name;
+    import { Name } from "path";
+
+# Hooks
+(Normal JS utility functions)
+useState()
+useEffect()
+
 
 
