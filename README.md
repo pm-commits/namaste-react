@@ -87,5 +87,8 @@ Optional chaining: (data?.name)
 useState()
 useEffect()
 
+# React points to remember
+
+Your JSX code leads to a tree-like code structure that "tells" React how the different components are related and how the UI should look like. It then executes appropriate commands to manipulate the real DOM to reflect that target structure / code.
 
 
