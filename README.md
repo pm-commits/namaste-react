@@ -83,6 +83,9 @@ Optional chaining: (data?.name)
     import { Name } from "path";
 
 # Hooks
+So react doesn't re render the whole component when we update any variable or any function inside, to support this we have to make use of hooks.
+1. Call hooks inside react components
+2. react hooks must not be called inside nested statements 
 (Normal JS utility functions)
 useState()
 useEffect()
@@ -90,5 +93,13 @@ useEffect()
 # React points to remember
 
 Your JSX code leads to a tree-like code structure that "tells" React how the different components are related and how the UI should look like. It then executes appropriate commands to manipulate the real DOM to reflect that target structure / code.
+
+In JS:
+
+{!(flag === 20) && <p>Show Flag</p>} when flag = 20 will show "Show Flag" on output else if flag!=20 will show nothing.
+
+## Passing Dynamic values to event handlers
+Example:
+onClick={() => handleClick('abc')}
 
 

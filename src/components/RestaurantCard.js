@@ -8,6 +8,7 @@ const RestaurantCard = (props) => {
             <div className="cuisines">{cuisines.join(',')}</div>
             <div className="delivery">{delivery}</div>
             <div className="rating">{rating}</div>
+            <button onClick={props.onSelect}>Reset</button>
             
         </div>
     )
