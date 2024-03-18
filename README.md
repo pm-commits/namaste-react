@@ -102,4 +102,8 @@ In JS:
 Example:
 onClick={() => handleClick('abc')}
 
+## Fragments
+if one has to return multiple elements in a component and don't want to add extra div eg; <div> <header/><body></body> </div>
+we can write <fragment> <header/><body></body> </fragment> or <> <header/><body></body> </>
+
 
