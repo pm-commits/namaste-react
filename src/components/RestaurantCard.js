@@ -1,13 +1,13 @@
 const RestaurantCard = (props) => {
-    const {url, name, cuisines, delivery, id,rating} = props.resData;
+    const restroData = props.resData;
     return (
         <div className="res-card">
-                <img className="res-logo" src={url} alt="res-img"/>
-            <div className="id">{id}</div>
-            <div className="name">{name}</div>
-            <div className="cuisines">{cuisines.join(',')}</div>
-            <div className="delivery">{delivery}</div>
-            <div className="rating">{rating}</div>
+            <img className="res-logo" src={"https://media-assets.swiggy.com/swiggy/image/upload/" + restroData.cloudinaryImageId} alt="res-img"/>
+            <div className="id">{restroData.id}</div>
+            <div className="name">{restroData.name}</div>
+            <div className="cuisines">{restroData.cuisines.join(',')}</div>
+            <div className="delivery">{restroData.sla.deliveryTime}</div>
+            <div className="rating">{restroData.avgRatingString}</div>
             <button onClick={props.onSelect}>Reset</button>
             
         </div>

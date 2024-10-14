@@ -2,27 +2,5 @@ import reactImg from "../assets/figure2.png"
 
 export const LOGO_URL = reactImg;
 
-export const RES_LIST = [{
-    url: LOGO_URL,
-    name: 'abc',
-    cuisines: ['south indian','chinese','chats'],
-    delivery: '35-40 mins',
-    id: 1,
-    rating: 4
-},
-{
-    url: LOGO_URL,
-    name: 'xyz',
-    cuisines: ['north indian','punjabi'],
-    delivery: '35-40 mins',
-    id: 2,
-    rating: 4.3
-},
-{
-    url: LOGO_URL,
-    name: 'pqr',
-    cuisines: ['chinese','korean'],
-    delivery: '1 hr',
-    id: 3,
-    rating: 3.8
-}];
+export const SWIGGY_FETCH_API = `https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.37240&lng=78.43780&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`;
+
