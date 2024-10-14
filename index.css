@@ -10,14 +10,15 @@
         height: 80%;
     }
     .nav-items{
-        /* padding: 0px 20px; */
         ul {
             display: flex;
             list-style-type: none;
+
             li {
                 padding: 15px;
-                color: Blue;
-                /* margin: 10px; */
+                :link{
+                    text-decoration: none;
+                }
             }
         }
     }
@@ -35,9 +36,12 @@
     background-color: #f0f0f0;
     margin-left: 5px;
     margin-top: 5px;
-    /* border: 1px solid blue; */
     width: 200px;
     height: 350px;
+    :link{
+        text-decoration: none;
+    }
+
     .res-logo{
         width: 95%;
         height: 50%;
@@ -66,4 +70,8 @@
 .body{
     padding-top: 10px ;
 }
-
+.filter
+{
+    display: flex;
+    gap: 10px;
+}
