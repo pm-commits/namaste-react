@@ -9,6 +9,12 @@ const Shimmer = () => {
             <div className="res-card"><img className="res-logo" /></div>
             <div className="res-card"><img className="res-logo" /></div>
             <div className="res-card"><img className="res-logo" /></div>
+            <div className="res-card"><img className="res-logo" /></div>
+            <div className="res-card"><img className="res-logo" /></div>
+            <div className="res-card"><img className="res-logo" /></div>
+            <div className="res-card"><img className="res-logo" /></div>
+            <div className="res-card"><img className="res-logo" /></div>
+            <div className="res-card"><img className="res-logo" /></div>
         </div>
     )
 };

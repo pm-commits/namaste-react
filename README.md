@@ -126,6 +126,16 @@ onClick={() => handleClick('abc')};
 if one has to return multiple elements in a component and don't want to add extra div eg; <div> <header/><body></body> </div>
 we can write <fragment> <header/><body></body> </fragment> or <> <header/><body></body> </>
 
+# Routing
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+## 2 Types of Routing:
+- Server Side Routing: Using <a href="somelink"></a> reloads the whole app.
+
+- Client Side Routing: We can use link component instead from "react-router-dom"
+This is what is meant by Single Page Application, when routing the app won't reload.
+Link is wrapper on anchor tag(in browser dom we will see a)
+
 
 
 
